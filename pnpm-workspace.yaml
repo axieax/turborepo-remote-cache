@@ -5,7 +5,10 @@ onlyBuiltDependencies:
 
 overrides:
   '@smithy/config-resolver@<4.4.0': '>=4.4.0'
-  fast-uri@<3.1.2: '>=3.1.2'
+  fast-copy@>=3.0.0 <3.1.0: 3.1.0
+  fast-jwt@>=6.0.0 <6.3.4: 6.3.4
+  fast-uri@>=3.0.0 <3.1.8: 3.1.8
+  form-data@>=2.0.0 <2.5.6: 2.5.6
   fast-xml-parser@<4.1.2: '>=4.1.2'
   fast-xml-parser@>=4.3.6 <5.7.0: '>=5.7.0'
   s3rver>fast-xml-parser: ^3.21.1
